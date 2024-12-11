@@ -6,12 +6,36 @@
     padding: 20px;
 }
 
+/* Full-width styling til figure */
+.full-width-figure {
+    margin: 0; /* Fjerner standardmarginer */
+    padding: 0; /* Fjerner standardpadding */
+    width: 100%; /* Sørger for, at det fylder hele bredden */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .full-width-figure img {
+    width: 100%; /* Gør billedet responsivt og fylder hele bredden */
+    height: auto; /* Bevarer billedets proportioner */
+    display: block; /* Fjerner mellemrum under billedet */
+  }
+  
+  .full-width-figure h1 {
+    position: absolute;
+    width: 60%;
+    font-size: 4rem;
+    color: white;
+  }
+
+
 /* kord styling */
 .kord {
     background-color: #9cc19f;
     color: #FFFFFF;
-    width: 250px;
-    padding: 20px;
+    width: 14rem;
+    padding: 1rem;
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
@@ -60,7 +84,7 @@ button:hover {
 /* Individual event card styling */
 .event-kord {
     background-color: #031838;
-    width: 20rem;
+    width: 19rem;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
@@ -69,7 +93,7 @@ button:hover {
 
 .event-kord img {
     width: 100%;
-    height: 150px;
+    height: 10rem;
     object-fit: cover;
 }
 
@@ -156,3 +180,37 @@ h3.progress-bar-title {
 .instagram-opslag {
     width: 40%;
 }
+
+/* tablet */ 
+@media (min-width: 425px) and (max-width: 1023px) {
+
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2, auto); /* To kolonner, hver tager 50% af bredden */
+        grid-template-rows: repeat(2, auto); /* To rækker, højden bestemmes automatisk */
+      
+    }
+
+    section.instagram-progress {
+        display: grid;
+    }
+
+    .progress-sektion, .instagram-opslag {
+        width: 100%;
+    }
+}
+
+
+ /*  mobile */ 
+ @media(max-width: 424px) {
+
+    section.instagram-progress{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .progress-sektion, .instagram-opslag {
+        width: 100%;
+    }
+ }

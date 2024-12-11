@@ -77,7 +77,7 @@ figure {
  }
 
  /*  mobile */ 
-@media(max-width: 600px) {
+@media(max-width: 424px) {
 
 
     header{
@@ -107,6 +107,7 @@ figure {
      
      #menu-bar:checked ~ .navbar{
         display: block;
+        z-index: 10;
      }
  
      .desktop-logo {
@@ -120,7 +121,7 @@ figure {
 
 
 /* tablet */ 
-@media (min-width: 601px) and (max-width: 991px) {
+@media (min-width: 425px) and (max-width: 1023px) {
 
     header{
        padding: 20px;
@@ -149,6 +150,7 @@ figure {
     
     #menu-bar:checked ~ .navbar{
        display: block;
+       z-index: 10;
     }
 
     .desktop-logo {
