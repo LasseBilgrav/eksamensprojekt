@@ -1,0 +1,154 @@
+.support-section {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.support-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.support-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.support-text {
+    flex: 1 1 40%;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+}
+
+.support-text h2 {
+    margin-top: 20px;
+    color: white;
+}
+
+.progress-section {
+    flex: 1 1 50%;
+    color: white;
+}
+
+.progress-item {
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    background-color: #9cc19f;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 25px;
+    margin-bottom: 5px;
+}
+
+.progress {
+    background-color: blue;
+    height: 100%;
+}
+
+.progress-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.progress-description {
+    margin-top: 20px;
+    font-size: 14px;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+}
+
+.support-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    color: white;
+}
+
+.support-column {
+    flex: 1 1 45%;
+    padding: 20px;
+}
+
+.support-column h2 {
+    margin-top: 0;
+}
+
+.support-column ul {
+    padding-left: 20px;
+}
+
+.support-column ul li {
+    margin-bottom: 10px;
+}
+
+.support-column p {
+    padding: 1rem;
+}
+
+.membership-section {
+    color: white;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .membership-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .tier-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .tier-card {
+    background-color: #9cc19f;
+    color: white;
+    padding: 30px;
+    border-radius: 8px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .tier-card h3 {
+    color: white;
+    margin-top: 0;
+  }
+  
+  .tier-card ul {
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .tier-card li {
+    margin-bottom: 10px;
+  }
+  
+  .cta-button {
+    background-color: #031838;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .cta-button:hover {
+    background-color: #1c5da8;
+  }
