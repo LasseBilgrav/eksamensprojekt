@@ -117,3 +117,15 @@
 .nominate-button:hover {
     background-color: #1c5da8;
 }
+
+
+
+/* tablet */ 
+@media (min-width: 425px) and (max-width: 1023px){
+
+}
+
+/*  mobile */ 
+@media(max-width: 424px){
+    
+}
