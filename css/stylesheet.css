@@ -76,48 +76,36 @@ figure {
     display: none;
  }
 
- /*  mobile */ 
-@media(max-width: 424px) {
 
+ /* footer starter */ 
 
-    header{
-        padding: 20px;
-        display: flex;
-        justify-content: space-between;
-        height: 4rem;
-     }
-     
-     header label{
-        display: block;
-     }
-     
-     header .navbar{
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background: #9cc19f;
-        border-top: 1px rgba(0,0,0,0.1);
-        display: none;
-     }
-     
-     header .navbar ul li{
-        width: 100%;
-     }
-     
-     #menu-bar:checked ~ .navbar{
-        display: block;
-        z-index: 10;
-     }
- 
-     .desktop-logo {
-         display: none;
-     }
- 
-     .mobil-logo {
-         display: flex;
-     }
- }
+footer {
+    background-color: #9cc19f;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-item a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.icons-footer {
+    display: flex;
+    width: 20%;
+    gap: 1rem;
+}
+
+img.icon-footer {
+    width: 100%;
+}
+
 
 
 /* tablet */ 
@@ -160,26 +148,63 @@ figure {
     .mobil-logo {
         display: flex;
     }
+
+    .icons-footer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 
-/*  navbar slutter */
+ /*  mobile */ 
+ @media(max-width: 424px) {
 
-/* footer starter */ 
 
-footer {
-    background-color: #9cc19f;
-    color: #ffffff;
-    text-align: center;
-    padding: 15px;
-    position: relative;
-    bottom: 0;
-    left: 0;
-    display: flex;
-    justify-content: space-around;
-}
+    header{
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        height: 4rem;
+     }
+     
+     header label{
+        display: block;
+     }
+     
+     header .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #9cc19f;
+        border-top: 1px rgba(0,0,0,0.1);
+        display: none;
+     }
+     
+     header .navbar ul li{
+        width: 100%;
+     }
+     
+     #menu-bar:checked ~ .navbar{
+        display: block;
+        z-index: 10;
+     }
+ 
+     .desktop-logo {
+        display: none;
+     }
+ 
+     .mobil-logo {
+        display: flex;
+     }
 
-.footer-item a {
-    color: #ffffff;
-    text-decoration: none;
-}
+     footer {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+     }
+
+     .icons-footer {
+        width: 100%;
+    }
+ }
