@@ -8,18 +8,18 @@
 
 /* Full-width styling til figure */
 .full-width-figure {
-    margin: 0; /* Fjerner standardmarginer */
-    padding: 0; /* Fjerner standardpadding */
-    width: 100%; /* Sørger for, at det fylder hele bredden */
+    margin: 0;
+    padding: 0;
+    width: 100%; 
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
   .full-width-figure img {
-    width: 100%; /* Gør billedet responsivt og fylder hele bredden */
-    height: auto; /* Bevarer billedets proportioner */
-    display: block; /* Fjerner mellemrum under billedet */
+    width: 100%; 
+    height: auto; 
+    display: block; 
   }
   
   .full-width-figure h1 {
