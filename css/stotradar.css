@@ -146,11 +146,16 @@
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
   }
   
   .cta-button:hover {
     background-color: #1c5da8;
   }
+
+  button:active {
+    transform: scale(0.9);
+}
 
 
   

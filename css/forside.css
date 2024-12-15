@@ -57,6 +57,12 @@
     cursor: pointer;
     font-size: 14px;
     text-decoration: none;
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+/* Effekt ved klik */
+a:active {
+    transform: scale(0.9);
 }
 
 
